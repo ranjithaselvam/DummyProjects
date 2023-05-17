@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="Sample Suite">
+
+
+	<test name="Sample Test" parallel="classes" thread-count="3">
+		<classes>
+			<class name="com.atmecs.SampleSeleniumProject.Test1" />
+			<class name="com.atmecs.SampleSeleniumProject.Test2" />
+				<class name="com.atmecs.SampleSeleniumProject.Test3" />
+
+		</classes>
+	</test>
+
+</suite>
